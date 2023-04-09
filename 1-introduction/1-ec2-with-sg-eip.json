@@ -32,7 +32,7 @@
         "ServerSecurityGroup": {
             "Type": "AWS::EC2::SecurityGroup",
             "Properties": {
-                "GroupDescription": "allow connections from specified CIDR ranges",
+                "GroupDescription": "allow connections from specified Cidr ranges",
                 "SecurityGroupIngress": [
                     {
                         "IpProtocol": "tcp",
